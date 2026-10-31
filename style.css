@@ -23,3 +23,10 @@ dialog .tiny{display:block;font:14px/1.4 'Neucha',cursive;letter-spacing:1px;col
 
 @font-face{font-family:Neucha;src:url('assets/Neucha.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
 @media(max-width:600px){dialog{padding:48px 32px 30px;max-height:88svh}dialog h2{font-size:28px}dialog #doc-text{font-size:22px}.note{padding:42px 30px 35px;min-height:420px}.note-writing .note-lead{font-size:27px}.note-writing .note-last{font-size:24px}}
+
+/* Uploaded hero artwork: keep the roadside sign visible on narrow screens. */
+.hero .landscape{object-fit:cover;object-position:center center;opacity:1}
+.hero .mist{display:none}
+.hero .hero-shade{background:linear-gradient(180deg,#0c171b15 0%,transparent 45%,#141b1de6 100%),linear-gradient(90deg,#0b151b40,transparent 65%)}
+.hero .hero-content{max-width:700px}
+@media(max-width:600px){.hero .landscape{object-position:100% center}.hero .hero-content{padding-top:95px}.hero .subtitle{max-width:230px;text-shadow:0 2px 8px #071118}}
