@@ -39,3 +39,5 @@ dialog .tiny{display:block;font:14px/1.4 'Neucha',cursive;letter-spacing:1px;col
 
 /* The station note contains only its title and numeric message. */
 dialog[data-document="station"] #doc-label,dialog[data-document="station"] .tiny{display:none}
+
+.closing .closing-letter{font-size:clamp(26px,4vw,56px);line-height:1.45;margin:0 auto;max-width:100%}
