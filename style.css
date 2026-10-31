@@ -13,7 +13,7 @@ dialog::backdrop{background:#100c08ed;backdrop-filter:blur(8px)}
 dialog .eyebrow{font:16px/1.45 'Neucha',cursive;letter-spacing:1px;color:#423024;transform:rotate(-2deg);margin:12px 0 20px;mix-blend-mode:multiply}
 dialog h2{font:32px/1.2 'Neucha',cursive;text-transform:uppercase;letter-spacing:1px;transform:rotate(-1deg);margin:20px 0 28px;color:#291b13;mix-blend-mode:multiply;text-shadow:.4px .3px .6px #20140b66}
 dialog #doc-text{font:23px/1.45 'Neucha',cursive;letter-spacing:.35px;white-space:normal;margin:0 0 30px;color:#2c1c13;mix-blend-mode:multiply;text-shadow:.3px .3px .6px #28180b66}
-.document-paragraph{display:block;margin:0 0 22px;transform:rotate(-.8deg)}
+.document-paragraph{display:block;white-space:pre-line;margin:0 0 22px;transform:rotate(-.8deg)}
 .document-paragraph:nth-child(2){transform:rotate(.7deg);padding-left:7px}
 .document-paragraph:nth-child(3){transform:rotate(-1.2deg);padding-right:6px}
 dialog .tiny{display:block;font:14px/1.4 'Neucha',cursive;letter-spacing:1px;color:#4d3524;transform:rotate(1deg);padding-bottom:12px}
