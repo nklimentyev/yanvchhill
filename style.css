@@ -30,3 +30,9 @@ dialog .tiny{display:block;font:14px/1.4 'Neucha',cursive;letter-spacing:1px;col
 .hero .hero-shade{background:linear-gradient(180deg,#291b0e15 0%,transparent 45%,#1c1813e6 100%),linear-gradient(90deg,#24180d26,transparent 65%)}
 .hero .hero-content{max-width:700px}
 @media(max-width:600px){.hero .landscape{object-position:100% center}.hero .hero-content{padding-top:95px}.hero .subtitle{max-width:230px;text-shadow:0 2px 8px #21160d}}
+
+/* Uploaded place artwork replaces the CSS illustrations. */
+.place .place-photo{background:#2e241a;filter:none}
+.place-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.place-photo:after{background:linear-gradient(transparent 70%,#140e0866)}
+.place-photo b{text-shadow:0 1px 5px #000}
